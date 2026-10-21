@@ -10,8 +10,8 @@ import numpy as np
 import tifffile
 
 
-MRC_PATH = Path("dataset/Annotations/20161129_SURFACTANTE_TOMO_09_norm_3DS30_bin2.mrc")
-TIF_DIR = Path("dataset/Annotations")
+MRC_PATH = Path("datos/20161129_SURFACTANTE_TOMO_09_norm_3DS30_bin2.mrc")
+TIF_DIR = Path("datos")
 TIF_PATTERN = "*.tif"
 MAX_Z_CANDIDATES = 3
 REFINE_RADIUS_Z = 3
