@@ -212,3 +212,9 @@ dataset/
 .venv/
 weights/
 output/
+
+
+
+*.mrc
+datos/
+datasets_publicos/**/*.tif
