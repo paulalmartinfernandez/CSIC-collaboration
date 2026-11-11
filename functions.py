@@ -42,9 +42,9 @@ def mostrar(volumen, lo, hi, etiquetas=None, ndisplay=3, escala=None):
 
 
 if __name__ == "__main__":
-    DATOS = Path(r"C:\Users\pauum\Desktop\PAULA\uni\MASTER\TFM\CRYOEM\Proyecto\datos")
+    DATOS = Path(r"C:\Users\pauum\Desktop\PAULA\uni\MASTER\TFM\CRYOEM\Proyecto\descarga")
 
-    ruta_mrc = next(DATOS.glob("*.mrc"), None)
+    ruta_mrc = next(DATOS.glob("sample_1.mrc"), None)
     if ruta_mrc is None:
         raise SystemExit(f"No hay ningún .mrc en {DATOS}")
 
