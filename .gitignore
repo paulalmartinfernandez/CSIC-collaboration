@@ -217,4 +217,4 @@ output/
 
 *.mrc
 datos/
-datasets_publicos/**/*.tif
+datasets_publicos/
